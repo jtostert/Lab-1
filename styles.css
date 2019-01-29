@@ -1,0 +1,38 @@
+html, body { 
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    height: 60px;
+    line-height: 60px;
+    padding: 20px;
+    background-color: palegoldenrod;
+}
+
+h1 {
+    margin: 0;
+}
+
+.content {
+    width: 70%;
+    background-color: lightgrey;
+    margin: 20px;
+    min-height: 500px;
+
+}
+
+.sidebar {
+    width: 30%;
+    background-color: darkgrey;
+    text-decoration: white;
+    margin: 20px;
+    min-height: 500px;
+
+}
+
+
+ul li a {
+    color: #000;
+    text-decoration: none;
+}
