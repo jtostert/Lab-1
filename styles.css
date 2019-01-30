@@ -12,22 +12,47 @@ html, body {
 
 h1 {
     margin: 0;
+    float: left;
+}
+
+ul{
+    float: right;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+li{
+    float: left;
+    margin: 10px;
 }
 
 .content {
     width: 70%;
     background-color: lightgrey;
-    margin: 20px;
     min-height: 500px;
+    float: left;
+}
 
+.blog-post {
+    margin: 10px;
+    background-color: white;
+    padding: 10px;
+    border-color: lightgray;
+    border-radius: 0px;
+    float: left;
+
+}
+
+.img {
+    float: left;
 }
 
 .sidebar {
     width: 30%;
     background-color: darkgrey;
     text-decoration: white;
-    margin: 20px;
     min-height: 500px;
+    float: right;
 
 }
 
